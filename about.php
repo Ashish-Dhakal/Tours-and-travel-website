@@ -17,6 +17,13 @@
     <!-- custom css file link -->
     <link rel="stylesheet" href="style.css">
 
+    <style>
+        .heading {
+
+            background: url(./img/header-bg-1.jpg) no-repeat;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -40,9 +47,10 @@
 
     <!-- header section end here -->
 
-        <div class="heading" style="background:url() no-repeate">
+    <div class="heading" style="">
+        <h1>About us</h1>
 
-        </div>
+    </div>
 
 
 
