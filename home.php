@@ -40,6 +40,55 @@
 
     <!-- header section end here -->
 
+    <!-- service section starts here -->
+
+    <section class="services">
+        <h1 class="heading-title"> Our Services</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="img/icon-1.jpg" alt="">
+                <h3>adventure</h3>
+
+            </div>
+
+            <div class="box">
+                <img src="img/icon-2.jpg" alt="">
+                <h3>tour guide</h3>
+
+            </div>
+
+            <div class="box">
+                <img src="img/icon-3.jpg" alt="">
+                <h3>trekking</h3>
+
+            </div>
+
+            <div class="box">
+                <img src="img/icon-4.jpg" alt="">
+                <h3>camp fire</h3>
+
+            </div>
+
+            <div class="box">
+                <img src="img/icon-5.jpg" alt="">
+                <h3>off road</h3>
+
+            </div>
+
+            <div class="box">
+                <img src="img/icon-6.jpg" alt="">
+                <h3>camping</h3>
+
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- service section ends here -->
+
 
 
 
