@@ -134,21 +134,168 @@
 
     <section class="home-about">
 
-    <div class="image">
-    <img src="img/about-img.jpg" alt="">
-    </div>
+        <div class="image">
+            <img src="img/about-img.jpg" alt="">
+        </div>
 
-    <div class="content">
-        <h3>about us</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, a nobis optio et temporibus asperiores nam sit praesentium voluptas voluptatibus eaque perspiciatis delectus repudiandae nostrum commodi pariatur adipisci eos numquam.</p>
+        <div class="content">
+            <h3>about us</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, a nobis optio et temporibus asperiores nam sit praesentium voluptas voluptatibus eaque perspiciatis delectus repudiandae nostrum commodi pariatur adipisci eos numquam.</p>
 
-        <a href="about.php" class="btn">read more</a>
-    </div>
+            <a href="about.php" class="btn">read more</a>
+        </div>
 
     </section>
 
     <!-- home about section starts ends here -->
 
+
+    <!-- home package section starts -->
+
+    <section class="home-packages">
+        <h1 class="heading-title"> our package</h1>
+
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="img/img-1.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h3>adventure & tour </h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus explicabo consectetur unde </p>
+                    <a href="book.php" class="btn"> book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="img/img-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>adventure & tour </h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus explicabo consectetur unde </p>
+                    <a href="book.php" class="btn"> book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="img/img-3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>adventure & tour </h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus explicabo consectetur unde </p>
+                    <a href="book.php" class="btn"> book now</a>
+                </div>
+            </div>
+
+            <!-- <div class="box">
+                <div class="image">
+                    <img src="img/img-4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>adventure & tour </h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus explicabo consectetur unde </p>
+                    <a href="book.php" class="btn"> book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="img/img-5.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>adventure & tour </h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus explicabo consectetur unde </p>
+                    <a href="book.php" class="btn"> book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="img/img-6.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>adventure & tour </h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus explicabo consectetur unde </p>
+                    <a href="book.php" class="btn"> book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="img/img-7.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>adventure & tour </h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus explicabo consectetur unde </p>
+                    <a href="book.php" class="btn"> book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="img/img-8.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>adventure & tour </h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus explicabo consectetur unde </p>
+                    <a href="book.php" class="btn"> book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="img/img-9.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>adventure & tour </h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus explicabo consectetur unde </p>
+                    <a href="book.php" class="btn"> book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="img/img-10.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>adventure & tour </h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus explicabo consectetur unde </p>
+                    <a href="book.php" class="btn"> book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="img/img-11.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>adventure & tour </h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus explicabo consectetur unde </p>
+                    <a href="book.php" class="btn"> book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="img/img-12.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>adventure & tour </h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus explicabo consectetur unde </p>
+                    <a href="book.php" class="btn"> book now</a>
+                </div>
+            </div>
+        </div> -->
+
+        <div class="load-more">
+            <a href="package.php" class="btn"> load more</a>
+        </div>
+
+    </section>
+
+    <!-- home package section ends -->
 
 
 
