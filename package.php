@@ -47,7 +47,7 @@
 
     <!-- header section end here -->
 
-    <div class="heading" style="">
+    <div class="heading" >
         <h1>Packages</h1>
 
     </div>
