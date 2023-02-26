@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 
     <!-- custom css file link -->
+
     <link rel="stylesheet" href="style.css">
 
 </head>
@@ -289,17 +290,29 @@
             </div>
         </div> -->
 
-        <div class="load-more">
-            <a href="package.php" class="btn"> load more</a>
-        </div>
+            <div class="load-more">
+                <a href="package.php" class="btn"> load more</a>
+            </div>
+
 
     </section>
+
+
 
     <!-- home package section ends -->
 
 
+    <!-- home offer section starts  -->
 
+    <section class="home-offer">
+        <div class="content">
+            <h3>up to 50% off</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse fugiat laborum, molestiae dolore sequi harum quod necessitatibus sed officiis perferendis consequuntur in deserunt quia, fuga corrupti at numquam porro omnis!</p>
+            <a href="book.php" class="btn"> Book now</a>
+        </div>
+    </section>
 
+    <!-- home offer section ends  -->
 
 
 
