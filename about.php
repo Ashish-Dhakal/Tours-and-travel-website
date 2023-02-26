@@ -17,12 +17,12 @@
     <!-- custom css file link -->
     <link rel="stylesheet" href="style.css">
 
-    <style>
+    <!-- <style>
         .heading {
 
             background: url(./img/header-bg-1.jpg) no-repeat;
         }
-    </style>
+    </style> -->
 
 </head>
 
@@ -47,15 +47,158 @@
 
     <!-- header section end here -->
 
-    <div class="heading">
-        <h1>About us</h1>
-
+    <div class="heading" style="background:url(img/header-bg-1.jpg) no-repeat">
+        <h1>about us</h1>
     </div>
 
+    <!-- about us section starts -->
+
+
+    <section class="about">
+        <div class="image">
+            <img src="img/about-img.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>why choose us?</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex quaerat mollitia magnam aperiam ad aliquam recusandae aut alias aspernatur obcaecati! Maxime reprehenderit consectetur, odio doloremque quia dolore adipisci enim velit.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur vel a repudiandae nulla libero voluptatibus nostrum, hic dolorem rem, eius nemo ipsum, quidem porro assumenda possimus. Tempore dolore porro eligendi!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab asperiores dignissimos repudiandae labore minima perferendis voluptatibus, est porro quibusdam aliquam, quod aut modi dolor ullam ipsam ad quae iusto facere.</p>
+            <div class="icons-container">
+                <div class="icon">
+                    <i class="fas fa-map"></i>
+                    <span>top destination</span>
+                </div>
+
+                <div class="icon">
+                    <i class="fas fa-hand-holding-usd"></i>
+                    <span>affordable price</span>
+                </div>
+
+                <div class="icon">
+                    <i class="fas fa-headset"></i>
+                    <span>24/7 guide service</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about us section ends -->
+
+
+    <!-- review section starts -->
+
+    <section class="reviews">
+
+        <h1 class="heading-title"> client review</h1>
 
 
 
+     <div class="swiper reviews-slider">
 
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+
+                    <div class=" starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta sunt dicta cumque. Eos nostrum eaque unde, id expedita voluptates aut voluptatibus facere repellat perspiciatis officia enim ipsum fuga at tempore?</p>
+                    <h3>ashish dhakal</h3>
+                    <span>traveler</span>
+                    <img src="img/pic-1.jpg " alt="">
+                </div>
+
+                <div class="swiper-slide slide"> 
+
+                    <div class=" starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor sunt corporis vel optio maxime minus possimus dolores et quibusdam voluptate magni maiores, consequuntur illum quo incidunt iusto voluptates rerum soluta dolorum illo ipsam ab sint. Consequatur, consequuntur praesentium. Praesentium, earum!</p>
+                    <h3>dhinkano</h3>
+                    <span>traveler</span>
+                    <img src="img/pic-2.jpg" alt="">
+                </div>
+
+                <div class="swiper-slide slide">
+
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta sunt dicta cumque. Eos nostrum eaque unde, id expedita voluptates aut voluptatibus facere repellat perspiciatis officia enim ipsum fuga at tempore?</p>
+                    <h3>flaeno</h3>
+                    <span>traveler</span>
+                    <img src="img/pic-3.jpg" alt="">
+                </div>
+
+                <div class="swiper-slide slide">
+
+                    <div class=" starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, aspernatur neque perferendis nisi aut, sed mollitia ipsam repellendus accusamus vero quo voluptates magnam sit quis dignissimos iusto alias deleniti eveniet!</p>
+                    <h3>ashish dhakal</h3>
+                    <span>traveler</span>
+                    <img src="img/pic-4.jpg" alt="">
+                </div>
+
+                <div class="swiper-slide slide">
+
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A tempore veritatis ratione nisi cum? Unde natus ab iusto aspernatur id? Ut aliquam laboriosam, vitae corrupti ab excepturi expedita? Qui aspernatur reprehenderit veniam labore tempore quibusdam explicabo natus fugiat, dolores eveniet.</p>
+                    <h3>ashish dhakal</h3>
+                    <span>traveler</span>
+                    <img src="img/pic-5.jpg" alt="">
+                </div>
+
+                <div class="swiper-slide slide">
+
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque fuga natus perferendis ab repellat laudantium ipsa nobis, debitis quam perspiciatis dolorum, incidunt ipsum quibusdam. Ad quaerat vero officia reprehenderit, laudantium nostrum amet! Debitis, magnam doloremque assumenda quidem quam cum a dignissimos eum cumque rerum voluptatem saepe quaerat officia ipsum adipisci!</p>
+                    <h3>ashish dhakal</h3>
+                    <span>traveler</span>
+                    <img src="img/pic-6.jpg" alt="">
+                </div>
+
+            </div>
+
+        </div> 
+
+    </section>
+
+
+
+    <!-- review section ends -->
 
 
 
