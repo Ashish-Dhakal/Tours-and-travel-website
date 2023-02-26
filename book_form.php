@@ -1,15 +1,48 @@
-<!DOCTYPE html>
-<html lang="en">
+<?
+// DB parameters
+$username = "root";
+$password = "";
+$hostname = "localhost";
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+//connection to the database
+$dbConnect = mysqli_connect($hostname, $username, $password,"book_db");
 
-<body>
-    ajdjkasdh
-</body>
+// another way of checking if the connection was successful
+if(!$dbConnect) {
+die ("Connection failed: " . mysqli_connect_error());}
+else{
+    echo'connection sucessfully';
+}
 
-</html>
+
+if (isset($_POST['send'])) {
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $phone = $_POST['phone'];
+    $address = $_POST['address'];
+    $location = $_POST['location'];
+    $guests = $_POST['guests'];
+    $arrivals = $_POST['arrivals'];
+    $leaving = $_POST['leaving'];
+   
+
+    $request = "insert into book_form ( name , email, phone	, address , location , guests , arrivals , leaving) values ('$name' , '$email' , '$phone' , '$address' , '$location' ,'$guests' , '$arrivals' , '$leaving')";
+
+    mysqli_query($conn , $request);
+    header('location:book.php');
+}
+else{
+    echo'something wet wrong try again';
+}
+
+
+
+
+
+
+
+
+    
+
+//echo "Connected successfully";
+?>
