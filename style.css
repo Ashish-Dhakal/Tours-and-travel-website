@@ -23,6 +23,8 @@
   text-transform: capitalize;
 }
 
+
+
 html {
   font-size: 62.5%;
   overflow-x: hidden;
@@ -48,10 +50,30 @@ section {
   }
 } 
 
+
+.heading
+{
+  background-size: cover !important;
+  background-position: center !important;
+  padding-top: 10rem;
+  padding-bottom: 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+  .heading h1{
+    font-size: 10rem;
+    text-transform: uppercase;
+    color:var(--white) ;
+    text-shadow: var(--text-shadow);
+  }
+
+
 .btn
 {
 display: inline-block;
-background: var(--black);
+background:var(--main-colorr);
 margin-top: 1rem;
 color: var(--white);
 font-size: 1.7rem;
@@ -62,7 +84,7 @@ cursor: pointer;
 
 .btn:hover
 {
-  background: var(--main-colorr);
+  background: var(--black);
 }
 
 
@@ -93,7 +115,7 @@ cursor: pointer;
 
 .header .logo {
   font-size: 2.5rem;
-  color: var(--black);
+  color: var(--main-colorr);
 }
 
 .header .navbar a {
@@ -111,8 +133,6 @@ cursor: pointer;
   cursor: pointer;
   color: var(--black);
   display: none;
-
-
 }
 
 
@@ -199,15 +219,6 @@ color: var(--white);
 {
   right: 7rem ;
 } */
-
-
-
-
-
-
-
-
-
 
 
 
@@ -389,10 +400,147 @@ height: 7rem;
   padding: 1rem 0;
 
 }
-
-
-
 /* home offer section ends */
+
+/* about page css start here */
+
+.about
+{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+
+}
+
+.about .image {
+  flex: 1 1 41rem;
+  }
+
+  .about .image img{
+    width: 100%;
+
+  }
+
+  .about .content{
+    flex: 1 1 41rem;
+    text-align: center;
+  }
+
+  .about .content h3{
+    font-size: 3rem;
+    color: var(--black);
+
+  }
+
+  .about .content p{
+    font-size: 1.5rem;
+    color: var(--light-black);
+    line-height: 2;
+    padding: 1rem 0;
+  }
+
+  .about .content .icons-container{
+    margin-top:2rem ;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: flex-end;
+  }
+
+  .about .content .icons-container .icon
+  {
+    background: var(--light-bg);
+    padding: 2rem;
+    flex:1 1 16rem;
+  }
+
+  .about .content .icons-container .icon i{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    color:var(--main-colorr) ;
+
+  }
+
+  .about .content .icons-container .icon span
+  {
+    font-size: 1.5rem;
+    color: var(--light-black);
+    display: block;
+  }
+
+  /* about page css end here */
+  
+
+  /* about page review css starts here */  
+
+  .reviews{  
+    background:var(--light-bg);
+  }
+
+  
+
+  .reviews .slide
+  {
+    padding: 2rem;
+    border: var(--border);
+    background: var(--white);
+    text-align: center ; 
+    box-shadow: var(--box-shadow);
+     user-select: none; 
+  }
+
+
+  
+  .reviews .slide .starts{
+    padding-bottom: .5rem;
+   
+  }
+
+  
+
+.reviews .slide .starts i
+  {
+    font-size: 1.7rem;
+    color: var(--main-colorr);
+  }
+
+  .reviews .slide p{
+    font-size: 1.5rem;
+    color: var(--light-black);
+    line-height: 2;
+    padding: 1rem 0;
+  }
+  
+  .reviews .slide h3{
+    font-size: 2rem;
+    color: var(--black);
+
+  }
+
+  .reviews .slide span
+  {
+    font-size: 1.5rem;
+    color: var(--main-colorr);
+    display: block;
+  }
+  
+  .reviews .slide img{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    margin-top: 1rem;
+  }  
+
+
+
+  
+
+ /* about page review css ends here */
+
+
+
+
 
 
 
