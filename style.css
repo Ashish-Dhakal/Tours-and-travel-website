@@ -11,7 +11,7 @@
   --border: 0.1rem solid var(--black);
   --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   --text-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.3);
-  --main-colorr: #00a960;
+  --main-colorr: #00a960; /*#00a960;*/
 }
 * {
   font-family: "Poppins", sans-serif;
@@ -352,34 +352,47 @@ height: 7rem;
 }
 
 
- .home-packages .load-more
+ .load-more
 {
   text-align: center;
   margin-top: 2rem;
+} 
+
+/* home package section ends */
+
+
+/* home offer section start */
+
+
+.home-offer
+{
+  text-align:center;
+}
+
+.home-offer .content
+{
+  max-width: 70rem;
+  margin: 0 auto;
+}
+
+.home-offer .content h3 
+{
+  font-size: 4rem;
+  color: var(--black);
+}
+
+.home-offer .content p
+{
+  font-size: 1.5rem;
+  color: var(--light-black);
+  line-height: 2;
+  padding: 1rem 0;
+
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* home package section ends */
-
+/* home offer section ends */
 
 
 
